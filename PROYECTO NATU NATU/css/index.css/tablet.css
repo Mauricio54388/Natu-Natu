@@ -1,0 +1,136 @@
+/* ===================== MEDIA QUERY TABLET ===================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  body {
+    font-size: 17px;
+  }
+
+  /* INICIO / HERO */
+  #inicio {
+    padding: 60px 40px;
+  }
+
+  #inicio img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  #inicio h3 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  .btn-contacto {
+    padding: 14px 30px;
+    font-size: 1rem;
+  }
+
+  /* QUIÉNES SOMOS */
+  #quienes-somos {
+    padding: 60px 40px;
+  }
+
+  .quienes-somos-card img,
+  .mision-card img,
+  .vision-card img {
+    max-width: 300px;
+  }
+
+  .mision-vision {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .mision-card, .vision-card {
+    flex: 1;
+  }
+
+  .btn-saber-mas {
+    padding: 12px 25px;
+    font-size: 1rem;
+    margin-top: 25px;
+  }
+
+  /* PRODUCTOS */
+  #productos {
+    padding: 60px 40px;
+  }
+
+  .productos-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .producto {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  .producto img {
+    max-width: 80S%;
+  }
+
+  /* VALORES */
+  #valores {
+    padding: 60px 40px;
+  }
+
+  .valores-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .valor {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  /* TESTIMONIOS */
+  #testimonios {
+    padding: 60px 40px;
+  }
+
+  .testimonios-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .testimonio {
+    flex: 1 1 calc(50% - 20px);
+  }
+
+  .testimonio img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* CONTACTO */
+  #contacto {
+    padding: 60px 40px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+  }
+
+  .contact-form button {
+    padding: 14px;
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 40px 40px;
+  }
+
+  .social-icons {
+    gap: 20px;
+  }
+}
